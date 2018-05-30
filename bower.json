@@ -1,0 +1,21 @@
+{
+  "name": "actividad_1",
+  "description": "Maquetacion agencia de viajes",
+  "main": "index.js",
+  "authors": [
+    "jose joaquin y antonio"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/josejtudela/Actividad_1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "Jquery": "^3.3.1"
+  }
+}
