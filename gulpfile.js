@@ -16,7 +16,7 @@ gulp.task('browser',()=>{
 });
 
 gulp.task('scripts',()=>{
- return gulp.src(['js/**/*.js','js/**/*.min.js'])
+ return gulp.src(['js/**/*.js'])
      .pipe(concat('app.js'))
      .pipe(gulp.dest('dist/js'))
      .pipe(rename('app.min.js'))
@@ -40,7 +40,7 @@ gulp.watch(['index.html'])
 
 gulp.watch(['js/**/*.js','js/**/*.min.js'])
     .on('change',()=>{
-      return gulp.src(['js/**/*.js','js/**/*.min.js'])
+      return gulp.src(['js/**/*.js'])
         .pipe(concat('app.js'))
         .pipe(gulp.dest('dist/js'))
         .pipe(rename('app.min.js'))
