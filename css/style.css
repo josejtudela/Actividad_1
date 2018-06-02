@@ -1,0 +1,16 @@
+/*### HEADER ###*/
+header{
+  background: url("../../img/nathan-anderson-316188-unsplash_opt.jpg") no-repeat fixed center;
+}
+
+#navbarNav{
+  background: transparent!important;
+}
+
+#navbarNav a,i{
+  color: white;
+}
+
+#bannerHeader{
+  min-height: 400px;
+}
