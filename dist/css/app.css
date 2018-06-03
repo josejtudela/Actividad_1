@@ -29,3 +29,20 @@ section{
 #bannerHeader i{
   color: black;
 }
+
+.titleFigure{
+  position: absolute;
+  top:0px;
+  padding: 8px;
+  background-color: #080f5d;
+  color: #fff;
+  width: 92.3%;
+}
+
+.priceFigure{
+  position: absolute;
+  color: #080f5d;
+  padding: 15px;
+  top:0px;
+  right: 15px;
+}
