@@ -61,25 +61,6 @@ i:hover {
   position: relative;
 }
 
-/* .item1{
-  background: url('../../img/madrid_opt.JPG') no-repeat local center center;
-}
-.item2{
-  background: url('../../img/buenos_aires_opt.JPG') no-repeat local center center;
-}
-.item3{
-  background: url('../../img/ciudad_mexico_opt.JPG') no-repeat local center center;
-}
-.item4{
-  background: url('../../img/new_york_opt.JPG') no-repeat local center center;
-}
-.item5{
-  background: url('../../img/tokyo_opt.JPG') no-repeat local center center;
-}
-.item6{
-  background: url('../../img/beijing_opt.JPG') no-repeat local center center;
-} */
-
 .titleFigureGrid {
   position: absolute;
   top:0;
@@ -97,4 +78,69 @@ i:hover {
   top:0;
   right:0;
   padding:1em;
+}
+
+button{
+  position: relative;
+  left: 150px
+}
+iframe{
+  position: relative;
+  float: left;
+  left: 100px;
+}
+.formulario{
+  position: relative;
+  float :right;
+}
+
+#quienesSomos{
+    background-image: url(../../img/back.jpeg);
+
+}
+#containerQuienesSomos{
+  height: 500px;
+
+}
+#colocar{
+    top: 100px;
+    width: 400px;
+    background-color: white;
+
+}
+
+.entrada1{
+  margin-left: 20px;
+}
+.entrada2{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+textarea{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+form{
+  margin-top: 20px;
+}
+#boton1 {
+    background: #000;
+    color: #fff;
+ }
+ #boton2 {
+     background-color: #0B0B61;
+     color:yellow;
+     border-color:#0B0B61;
+     margin-bottom: 20px;
+
+  }
+#prueba{
+  /* background:red; */
+}
+#hr1{
+  margin: 0;
+  height:5px;
+  width: 180px;
+  background-color:yellow;
+  border:none;
 }
