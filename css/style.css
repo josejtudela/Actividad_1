@@ -134,13 +134,35 @@ form{
      margin-bottom: 20px;
 
   }
-#prueba{
-  /* background:red; */
-}
 #hr1{
   margin: 0;
   height:5px;
   width: 180px;
   background-color:yellow;
   border:none;
+}
+
+footer{
+  background:#040936;
+  padding: 1em;
+}
+
+.gridFooter{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+
+.itemFooter2 ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.itemFooter2 a{
+  color: white;
+}
+
+.itemFooter3 .buttonFooter{
+  position: relative;
+  left: 0;
 }
