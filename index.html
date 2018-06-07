@@ -1,68 +1,133 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/Font-Awesome/web-fonts-with-css/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="dist/css/app.min.css">
-    <title>Geekhubs Travels</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarNav">
-        <a class="navbar-brand" href="#"><img src="img/iconoweb.png" class="d-inline-block align-top" width="50"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Destinos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Quién somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Donde estamos</a>
-            </li>
-          </ul>
-        </div>
-        <ul class="navbar-nav mr-auto">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/Font-Awesome/web-fonts-with-css/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="dist/css/app.min.css">
+  <title>Geekhubs Travels</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarNav">
+      <a class="navbar-brand" href="#">
+        <img src="img/iconoweb.png" class="d-inline-block align-top" width="50" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="nav-link" href="#">Destinos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i></a>
+            <a class="nav-link" href="#">Quién somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+            <a class="nav-link" href="#">Donde estamos</a>
           </li>
         </ul>
-      </nav>
-      <div class="container" id="bannerHeader">
-        <div class="row">
-          <div class="col-12 col-md-6 offset-4 text-white">
-            <h1><strong>Viaja!</strong></h1>
-            <h3>Descubre lugares maravillosos</h3>
-            <div class="col-8 col-md-8 d-flex justify-content-center pt-10">
-              <button type="button" class="btn btn-warning rounded-0"><i>ver destinos</i></button>
-            </div>
+      </div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container" id="bannerHeader">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-4 text-white">
+          <h1>
+            <strong>Viaja!</strong>
+          </h1>
+          <h3>Descubre lugares maravillosos</h3>
+          <div class="col-8 col-md-8 d-flex justify-content-center pt-10">
+            <button type="button" class="btn btn-warning rounded-0">
+              <i>ver destinos</i>
+            </button>
           </div>
         </div>
       </div>
-    </header>
-    <section id="destinos">
-      <div class="container">
-        <div class="row">
+    </div>
+  </header>
+  <section id="destinos">
+    <div class="container containerCSSGrid">
+      <div class="item item1">
+          <img src="img/madrid_opt.JPG" class="img-fluid" alt="Madrid">
+          <p class="titleFigureGrid">Save 90$ pay only</p>
+          <p class="bg-warning priceGrid">
+              <strong>359$</strong>
+          </p>
+      </div>
+      <div class="item item2">
+        <img src="img/buenos_aires_opt.JPG" class="img-fluid" alt="Buenos Aires">
+          <p class="titleFigureGrid">Save 90$ pay only</p>
+          <p class="bg-warning priceGrid">
+              <strong>359$</strong>
+          </p>
+      </div>
+      <div class="item item3">
+          <img src="img/ciudad_mexico_opt.JPG" class="img-fluid" alt="Ciudad de Mexico">
+          <p class="titleFigureGrid">Save 90$ pay only</p>
+          <p class="bg-warning priceGrid">
+              <strong>359$</strong>
+          </p>
+      </div>
+      <div class="item item4">
+          <img src="img/new_york_opt.JPG" class="img-fluid" alt="New York">
+          <p class="titleFigureGrid">Save 90$ pay only</p>
+          <p class="bg-warning priceGrid">
+              <strong>359$</strong>
+          </p>
+      </div>
+      <div class="item item5">
+          <img src="img/tokyo_opt.JPG" class="img-fluid" alt="Tokyo">
+          <p class="titleFigureGrid">Save 90$ pay only</p>
+          <p class="bg-warning priceGrid">
+              <strong>359$</strong>
+          </p>
+      </div>
+      <div class="item item6">
+          <img src="img/beijing_opt.JPG" class="img-fluid" alt="Beijing">
+          <p class="titleFigureGrid">Save 90$ pay only</p>
+          <p class="bg-warning priceGrid">
+              <strong>359$</strong>
+          </p>
+      </div>
+
+
+      <!-- <div class="row">
           <div class="col-12 col-sm-6 col-md-4">
             <figure>
               <img src="img/madrid_opt.JPG" class="img-fluid" alt="Madrid">
@@ -105,24 +170,24 @@
               <figcaption class="text-center"><strong>Beijing</strong></figcaption>
             </figure>
           </div>
-        </div>
-      </div>
-    </section>
-    <section id="quienesSomos">
-      quines somos
-    </section>
-    <section id="dondeEstamos">
-      donde estamos
-    </section>
-    <footer>
-      footer
-    </footer>
-  </body>
+        </div> -->
+    </div>
+  </section>
+  <section id="quienesSomos">
+    quines somos
+  </section>
+  <section id="dondeEstamos">
+    donde estamos
+  </section>
+  <footer>
+    footer
+  </footer>
+</body>
 
-  <!-- <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> -->
-  <!-- <script type="text/javascript" src="js/npm.js"></script> -->
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="dist/js/app.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/npm.js"></script> -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/js/app.min.js"></script>
 
 </html>
