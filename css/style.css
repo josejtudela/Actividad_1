@@ -4,7 +4,16 @@ header {
   background: url("../../img/nathan-anderson-316188-unsplash_opt.jpg") no-repeat fixed center;
   height: 100vh;
 }
-
+.navbar-brand{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.navbar-brand p{
+  color: black;
+}
 section {
   margin-top: 20px;
   margin-bottom: 20px;
