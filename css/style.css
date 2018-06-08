@@ -109,10 +109,10 @@ i:hover {
   padding:1em;
 }
 
-button{
+/* button{
   position: relative;
   left: 150px
-}
+}  */
 iframe{
   position: relative;
   float: left;
@@ -152,17 +152,22 @@ textarea{
 form{
   margin-top: 20px;
 }
-#boton1 {
-    background: #000;
-    color: #fff;
+#boton1 i{
+    color: #000;
  }
  #boton2 {
-     background-color: #0B0B61;
-     color:yellow;
-     border-color:#0B0B61;
-     margin-bottom: 20px;
-
-  }
+    background-color: #0B0B61;
+    color:yellow;
+    border-color:#0B0B61;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.flexQuienes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #hr1{
   margin: 0;
   height:5px;
@@ -170,6 +175,14 @@ form{
   background-color:yellow;
   border:none;
 }
+
+#hr2{
+  margin: 0;
+  height:5px;
+  width: 20px;
+  background-color:blue;
+  border:none;
+ }
 
 footer{
   background:#040936;
