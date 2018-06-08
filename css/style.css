@@ -114,9 +114,9 @@ i:hover {
   left: 150px
 }  */
 iframe{
-  position: relative;
+   position: relative;
   float: left;
-  left: 100px;
+  left: 80px;
 }
 .formulario{
   position: relative;
@@ -150,7 +150,7 @@ textarea{
   margin-left: 20px;
 }
 form{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #boton1 i{
     color: #000;
@@ -168,11 +168,21 @@ form{
   justify-content: center;
   align-items: center;
 }
+#boton3 i {
+  color: black;
+}
 #hr1{
   margin: 0;
   height:5px;
   width: 180px;
   background-color:yellow;
+  border:none;
+}
+#hr2{
+  margin: 0;
+  height:5px;
+  width: 20px;
+  background-color:blue;
   border:none;
 }
 
@@ -207,4 +217,8 @@ footer{
 .itemFooter3 .buttonFooter{
   position: relative;
   left: 0;
+}
+#item{
+  position: relative;
+  top: -20px;
 }
