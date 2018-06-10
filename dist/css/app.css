@@ -140,6 +140,7 @@ iframe{
 
 .entrada1{
   margin-left: 20px;
+  padding: 4px;
 }
 .entrada2{
   margin-top: 10px;
@@ -148,6 +149,7 @@ iframe{
 textarea{
   margin-top: 10px;
   margin-left: 20px;
+  padding: 4px;
 }
 form{
   margin-top: 40px;
