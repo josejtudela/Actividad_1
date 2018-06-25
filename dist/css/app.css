@@ -72,6 +72,11 @@ i:hover {
   display:none;
 }
 
+#carouselDestinos{
+  display: none;
+} 
+
+
 @media (max-width:1200px){
   .containerCSSGrid {
     display: grid;
@@ -104,10 +109,7 @@ i:hover {
 
 @media (max-width:700px){
   .containerCSSGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(2, minmax(16em,auto)); */
-    grid-gap: 1em;
+    display:none
   }
 
   .rrss{
@@ -130,6 +132,9 @@ i:hover {
   .navbar-brand p{
     color: white;
   }
+  #carouselDestinos{
+    display: block;
+  } 
 }
 
 .item{
