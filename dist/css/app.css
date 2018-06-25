@@ -68,12 +68,30 @@ i:hover {
   grid-gap: 1em;
 }
 
+.rrssbottom{
+  display:none;
+}
+
 @media (max-width:1200px){
   .containerCSSGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: repeat(2, minmax(16em,auto)); */
     grid-gap: 1em;
+  }
+
+  .rrss{
+    display:none;
+  }
+  .rrssbottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rrssbottom .nav-item{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
@@ -83,6 +101,20 @@ i:hover {
     grid-template-columns: 1fr;
     /* grid-template-rows: repeat(2, minmax(16em,auto)); */
     grid-gap: 1em;
+  }
+
+  .rrss{
+    display:none;
+  }
+  .rrssbottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rrssbottom .nav-item{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
