@@ -1,7 +1,7 @@
 /*### HEADER ###*/
 /*box-sizing:content-box*/
 header {
-  background: url("../../img/nathan-anderson-316188-unsplash_opt.jpg") no-repeat fixed center;
+  background: url("../../img/nathan-anderson-316188-unsplash_opt.jpg") no-repeat fixed top center;
   height: 100vh;
 }
 .navbar-brand{
@@ -74,66 +74,6 @@ i:hover {
   display: none;
 } 
 
-
-@media (max-width:1200px){
-  .containerCSSGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, minmax(16em,auto)); */
-    grid-gap: 1em;
-  }
-
-  .rrss{
-    display:none;
-  }
-  .rrssbottom{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .rrssbottom .nav-item{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-
-  #navBarWebz {
-    background: #080f5d !important;
-  }
-  .navbar-brand p{
-    color: white;
-  }
-}
-
-@media (max-width:700px){
-  .containerCSSGrid {
-    display:none
-  }
-
-  .rrss{
-    display:none;
-  }
-  .rrssbottom{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .rrssbottom .nav-item{
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-
-  #navBarWebz {
-    background: #080f5d !important;
-  }
-  .navbar-brand p{
-    color: white;
-  }
-  #carouselDestinos{
-    display: block;
-  } 
-}
 
 .item{
   position: relative;
@@ -272,4 +212,77 @@ footer{
 #item{
   position: relative;
   top: -20px;
+}
+
+
+
+@media (max-width:1200px){
+  .containerCSSGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, minmax(16em,auto)); */
+    grid-gap: 1em;
+  }
+
+  .rrss{
+    display:none;
+  }
+  .rrssbottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rrssbottom .nav-item{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  #navBarWebz {
+    background: #080f5d !important;
+  }
+  .navbar-brand p{
+    color: white;
+  }
+
+}
+
+@media (max-width:700px){
+  .containerCSSGrid {
+    display:none
+  }
+
+  .rrss{
+    display:none;
+  }
+  .rrssbottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rrssbottom .nav-item{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  #navBarWebz {
+    background: #080f5d !important;
+  }
+  .navbar-brand p{
+    color: white;
+  }
+  #carouselDestinos{
+    display: block;
+  } 
+
+  .itemFooter2{
+    display: none;
+  }
+
+  .gridFooter{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
 }
