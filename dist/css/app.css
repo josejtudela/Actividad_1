@@ -20,16 +20,16 @@ section {
   margin-bottom: 20px;
 }
 
-#navbarNav {
+#navBarWebz {
   background: transparent !important;
 }
 
-#navbarNav a,
+#navBarWebz a,
 i {
   color: white;
 }
 
-#navbarNav a:hover,
+#navBarWebz a:hover,
 i:hover {
   color: gray;
 }
@@ -99,7 +99,7 @@ i:hover {
     padding-right: 0.5em;
   }
 
-  #navbarNav {
+  #navBarWebz {
     background: #080f5d !important;
   }
   .navbar-brand p{
@@ -126,7 +126,7 @@ i:hover {
     padding-right: 0.5em;
   }
 
-  #navbarNav {
+  #navBarWebz {
     background: #080f5d !important;
   }
   .navbar-brand p{
