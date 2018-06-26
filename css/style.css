@@ -34,10 +34,8 @@ i:hover {
   color: gray;
 }
 
-#bannerHeader {
-  /* min-height: 400px; */
-  padding-top: 5em;
-  padding-bottom: 5em;
+#bannerHeader{
+  padding-top: 25vh;
 }
 
 #bannerHeader i {
