@@ -16,8 +16,8 @@ header {
 }
 
 section {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 #navBarWebz {
@@ -84,10 +84,10 @@ i:hover {
   top:0;
   background-color: #080f5d;
   color: #fff;
-  padding-right: 60%;
   padding-top: 0.5em;
   padding-left: 0.5em;
   padding-bottom: 0.5em;
+  width: 100%;
 }
 
 .priceGrid{
